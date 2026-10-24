@@ -110,3 +110,15 @@ def test_detail_samples_cover_the_pass(iss, south_point):
     assert detail.times[0] - p.aos < timedelta(seconds=1)
     assert p.los - detail.times[-1] < timedelta(seconds=1)
     assert len(detail.times) == len(detail.doppler_hz)
+
+
+def test_peak_azimuth_rate_does_not_depend_on_step(iss, south_point):
+    """Coarse sampling must not hide the azimuth-rate peak at TCA."""
+    passes = find_passes(iss, south_point, WINDOW_START, hours=24)
+    p = max(passes, key=lambda candidate: candidate.max_elevation_deg)
+    fine = compute_pass_detail(iss, south_point, p, S_BAND_HZ, step_s=1)
+    coarse = compute_pass_detail(iss, south_point, p, S_BAND_HZ, step_s=30)
+
+    assert coarse.max_azimuth_rate_deg_s == pytest.approx(
+        fine.max_azimuth_rate_deg_s, rel=0.02
+    )

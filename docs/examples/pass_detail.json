@@ -1,0 +1,644 @@
+{
+  "summary": {
+    "pass_id": "43013-esrange-20261025T013949Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T01:33:18.294573Z",
+    "tca": "2026-10-25T01:39:49.107863Z",
+    "los": "2026-10-25T01:46:17.862745Z",
+    "duration_s": 779.6,
+    "max_elevation_deg": 87.53,
+    "min_elevation_deg": 5.0
+  },
+  "downlink_hz": 2200000000.0,
+  "step_s": 10.0,
+  "max_doppler_hz": 48634.0,
+  "max_azimuth_rate_deg_s": 11.941,
+  "samples": [
+    {
+      "time": "2026-10-25T01:33:18.294573Z",
+      "elevation_deg": 5.004,
+      "azimuth_deg": 23.717,
+      "range_km": 2871.342,
+      "range_rate_km_s": -6.62065,
+      "doppler_hz": 48585.0
+    },
+    {
+      "time": "2026-10-25T01:33:28.418835Z",
+      "elevation_deg": 5.734,
+      "azimuth_deg": 23.741,
+      "range_km": 2804.351,
+      "range_rate_km_s": -6.61293,
+      "doppler_hz": 48528.4
+    },
+    {
+      "time": "2026-10-25T01:33:38.543097Z",
+      "elevation_deg": 6.485,
+      "azimuth_deg": 23.763,
+      "range_km": 2737.445,
+      "range_rate_km_s": -6.60388,
+      "doppler_hz": 48462.0
+    },
+    {
+      "time": "2026-10-25T01:33:48.667359Z",
+      "elevation_deg": 7.258,
+      "azimuth_deg": 23.784,
+      "range_km": 2670.637,
+      "range_rate_km_s": -6.59336,
+      "doppler_hz": 48384.8
+    },
+    {
+      "time": "2026-10-25T01:33:58.791621Z",
+      "elevation_deg": 8.056,
+      "azimuth_deg": 23.804,
+      "range_km": 2603.944,
+      "range_rate_km_s": -6.58124,
+      "doppler_hz": 48295.9
+    },
+    {
+      "time": "2026-10-25T01:34:08.915883Z",
+      "elevation_deg": 8.879,
+      "azimuth_deg": 23.822,
+      "range_km": 2537.383,
+      "range_rate_km_s": -6.56739,
+      "doppler_hz": 48194.2
+    },
+    {
+      "time": "2026-10-25T01:34:19.040145Z",
+      "elevation_deg": 9.731,
+      "azimuth_deg": 23.839,
+      "range_km": 2470.971,
+      "range_rate_km_s": -6.55163,
+      "doppler_hz": 48078.6
+    },
+    {
+      "time": "2026-10-25T01:34:29.164407Z",
+      "elevation_deg": 10.613,
+      "azimuth_deg": 23.854,
+      "range_km": 2404.729,
+      "range_rate_km_s": -6.53378,
+      "doppler_hz": 47947.6
+    },
+    {
+      "time": "2026-10-25T01:34:39.288669Z",
+      "elevation_deg": 11.528,
+      "azimuth_deg": 23.867,
+      "range_km": 2338.679,
+      "range_rate_km_s": -6.51362,
+      "doppler_hz": 47799.6
+    },
+    {
+      "time": "2026-10-25T01:34:49.412931Z",
+      "elevation_deg": 12.478,
+      "azimuth_deg": 23.878,
+      "range_km": 2272.846,
+      "range_rate_km_s": -6.49091,
+      "doppler_hz": 47633.0
+    },
+    {
+      "time": "2026-10-25T01:34:59.537193Z",
+      "elevation_deg": 13.467,
+      "azimuth_deg": 23.887,
+      "range_km": 2207.257,
+      "range_rate_km_s": -6.46538,
+      "doppler_hz": 47445.6
+    },
+    {
+      "time": "2026-10-25T01:35:09.661455Z",
+      "elevation_deg": 14.498,
+      "azimuth_deg": 23.894,
+      "range_km": 2141.942,
+      "range_rate_km_s": -6.4367,
+      "doppler_hz": 47235.2
+    },
+    {
+      "time": "2026-10-25T01:35:19.785717Z",
+      "elevation_deg": 15.574,
+      "azimuth_deg": 23.898,
+      "range_km": 2076.935,
+      "range_rate_km_s": -6.40452,
+      "doppler_hz": 46999.0
+    },
+    {
+      "time": "2026-10-25T01:35:29.909979Z",
+      "elevation_deg": 16.701,
+      "azimuth_deg": 23.899,
+      "range_km": 2012.273,
+      "range_rate_km_s": -6.36841,
+      "doppler_hz": 46734.0
+    },
+    {
+      "time": "2026-10-25T01:35:40.034241Z",
+      "elevation_deg": 17.882,
+      "azimuth_deg": 23.896,
+      "range_km": 1947.999,
+      "range_rate_km_s": -6.3279,
+      "doppler_hz": 46436.7
+    },
+    {
+      "time": "2026-10-25T01:35:50.158503Z",
+      "elevation_deg": 19.122,
+      "azimuth_deg": 23.89,
+      "range_km": 1884.16,
+      "range_rate_km_s": -6.28243,
+      "doppler_hz": 46103.1
+    },
+    {
+      "time": "2026-10-25T01:36:00.282765Z",
+      "elevation_deg": 20.429,
+      "azimuth_deg": 23.88,
+      "range_km": 1820.808,
+      "range_rate_km_s": -6.23137,
+      "doppler_hz": 45728.3
+    },
+    {
+      "time": "2026-10-25T01:36:10.407027Z",
+      "elevation_deg": 21.807,
+      "azimuth_deg": 23.865,
+      "range_km": 1758.005,
+      "range_rate_km_s": -6.17396,
+      "doppler_hz": 45307.0
+    },
+    {
+      "time": "2026-10-25T01:36:20.531289Z",
+      "elevation_deg": 23.265,
+      "azimuth_deg": 23.844,
+      "range_km": 1695.819,
+      "range_rate_km_s": -6.10934,
+      "doppler_hz": 44832.8
+    },
+    {
+      "time": "2026-10-25T01:36:30.655551Z",
+      "elevation_deg": 24.81,
+      "azimuth_deg": 23.817,
+      "range_km": 1634.328,
+      "range_rate_km_s": -6.03651,
+      "doppler_hz": 44298.4
+    },
+    {
+      "time": "2026-10-25T01:36:40.779812Z",
+      "elevation_deg": 26.451,
+      "azimuth_deg": 23.783,
+      "range_km": 1573.62,
+      "range_rate_km_s": -5.9543,
+      "doppler_hz": 43695.1
+    },
+    {
+      "time": "2026-10-25T01:36:50.904074Z",
+      "elevation_deg": 28.199,
+      "azimuth_deg": 23.74,
+      "range_km": 1513.798,
+      "range_rate_km_s": -5.86136,
+      "doppler_hz": 43013.1
+    },
+    {
+      "time": "2026-10-25T01:37:01.028336Z",
+      "elevation_deg": 30.065,
+      "azimuth_deg": 23.687,
+      "range_km": 1454.978,
+      "range_rate_km_s": -5.75611,
+      "doppler_hz": 42240.7
+    },
+    {
+      "time": "2026-10-25T01:37:11.152598Z",
+      "elevation_deg": 32.062,
+      "azimuth_deg": 23.622,
+      "range_km": 1397.293,
+      "range_rate_km_s": -5.63671,
+      "doppler_hz": 41364.5
+    },
+    {
+      "time": "2026-10-25T01:37:21.276860Z",
+      "elevation_deg": 34.202,
+      "azimuth_deg": 23.543,
+      "range_km": 1340.897,
+      "range_rate_km_s": -5.50106,
+      "doppler_hz": 40369.0
+    },
+    {
+      "time": "2026-10-25T01:37:31.401122Z",
+      "elevation_deg": 36.502,
+      "azimuth_deg": 23.446,
+      "range_km": 1285.967,
+      "range_rate_km_s": -5.34674,
+      "doppler_hz": 39236.6
+    },
+    {
+      "time": "2026-10-25T01:37:41.525384Z",
+      "elevation_deg": 38.976,
+      "azimuth_deg": 23.327,
+      "range_km": 1232.706,
+      "range_rate_km_s": -5.17099,
+      "doppler_hz": 37946.9
+    },
+    {
+      "time": "2026-10-25T01:37:51.649646Z",
+      "elevation_deg": 41.643,
+      "azimuth_deg": 23.181,
+      "range_km": 1181.345,
+      "range_rate_km_s": -4.97074,
+      "doppler_hz": 36477.3
+    },
+    {
+      "time": "2026-10-25T01:38:01.773908Z",
+      "elevation_deg": 44.52,
+      "azimuth_deg": 23.001,
+      "range_km": 1132.15,
+      "range_rate_km_s": -4.74259,
+      "doppler_hz": 34803.1
+    },
+    {
+      "time": "2026-10-25T01:38:11.898170Z",
+      "elevation_deg": 47.624,
+      "azimuth_deg": 22.774,
+      "range_km": 1085.421,
+      "range_rate_km_s": -4.48292,
+      "doppler_hz": 32897.5
+    },
+    {
+      "time": "2026-10-25T01:38:22.022432Z",
+      "elevation_deg": 50.971,
+      "azimuth_deg": 22.486,
+      "range_km": 1041.496,
+      "range_rate_km_s": -4.18804,
+      "doppler_hz": 30733.5
+    },
+    {
+      "time": "2026-10-25T01:38:32.146694Z",
+      "elevation_deg": 54.575,
+      "azimuth_deg": 22.112,
+      "range_km": 1000.75,
+      "range_rate_km_s": -3.85439,
+      "doppler_hz": 28285.1
+    },
+    {
+      "time": "2026-10-25T01:38:42.270956Z",
+      "elevation_deg": 58.444,
+      "azimuth_deg": 21.613,
+      "range_km": 963.592,
+      "range_rate_km_s": -3.47894,
+      "doppler_hz": 25529.9
+    },
+    {
+      "time": "2026-10-25T01:38:52.395218Z",
+      "elevation_deg": 62.58,
+      "azimuth_deg": 20.924,
+      "range_km": 930.455,
+      "range_rate_km_s": -3.05965,
+      "doppler_hz": 22453.0
+    },
+    {
+      "time": "2026-10-25T01:39:02.519480Z",
+      "elevation_deg": 66.973,
+      "azimuth_deg": 19.921,
+      "range_km": 901.788,
+      "range_rate_km_s": -2.59609,
+      "doppler_hz": 19051.2
+    },
+    {
+      "time": "2026-10-25T01:39:12.643742Z",
+      "elevation_deg": 71.6,
+      "azimuth_deg": 18.349,
+      "range_km": 878.032,
+      "range_rate_km_s": -2.09,
+      "doppler_hz": 15337.3
+    },
+    {
+      "time": "2026-10-25T01:39:22.768004Z",
+      "elevation_deg": 76.416,
+      "azimuth_deg": 15.572,
+      "range_km": 859.597,
+      "range_rate_km_s": -1.54587,
+      "doppler_hz": 11344.2
+    },
+    {
+      "time": "2026-10-25T01:39:32.892266Z",
+      "elevation_deg": 81.328,
+      "azimuth_deg": 9.49,
+      "range_km": 846.834,
+      "range_rate_km_s": -0.97113,
+      "doppler_hz": 7126.5
+    },
+    {
+      "time": "2026-10-25T01:39:43.016528Z",
+      "elevation_deg": 85.992,
+      "azimuth_deg": 348.014,
+      "range_km": 840.002,
+      "range_rate_km_s": -0.37598,
+      "doppler_hz": 2759.1
+    },
+    {
+      "time": "2026-10-25T01:39:53.140790Z",
+      "elevation_deg": 86.8,
+      "azimuth_deg": 256.364,
+      "range_km": 839.249,
+      "range_rate_km_s": 0.22734,
+      "doppler_hz": -1668.3
+    },
+    {
+      "time": "2026-10-25T01:40:03.265052Z",
+      "elevation_deg": 82.378,
+      "azimuth_deg": 224.813,
+      "range_km": 844.589,
+      "range_rate_km_s": 0.82575,
+      "doppler_hz": -6059.7
+    },
+    {
+      "time": "2026-10-25T01:40:13.389314Z",
+      "elevation_deg": 77.465,
+      "azimuth_deg": 217.26,
+      "range_km": 855.91,
+      "range_rate_km_s": 1.40668,
+      "doppler_hz": -10322.8
+    },
+    {
+      "time": "2026-10-25T01:40:23.513576Z",
+      "elevation_deg": 72.612,
+      "azimuth_deg": 214.046,
+      "range_km": 872.977,
+      "range_rate_km_s": 1.95933,
+      "doppler_hz": -14378.4
+    },
+    {
+      "time": "2026-10-25T01:40:33.637838Z",
+      "elevation_deg": 67.932,
+      "azimuth_deg": 212.29,
+      "range_km": 895.46,
+      "range_rate_km_s": 2.47554,
+      "doppler_hz": -18166.5
+    },
+    {
+      "time": "2026-10-25T01:40:43.762100Z",
+      "elevation_deg": 63.477,
+      "azimuth_deg": 211.193,
+      "range_km": 922.962,
+      "range_rate_km_s": 2.95009,
+      "doppler_hz": -21649.0
+    },
+    {
+      "time": "2026-10-25T01:40:53.886362Z",
+      "elevation_deg": 59.276,
+      "azimuth_deg": 210.448,
+      "range_km": 955.046,
+      "range_rate_km_s": 3.38059,
+      "doppler_hz": -24808.1
+    },
+    {
+      "time": "2026-10-25T01:41:04.010624Z",
+      "elevation_deg": 55.34,
+      "azimuth_deg": 209.913,
+      "range_km": 991.265,
+      "range_rate_km_s": 3.76698,
+      "doppler_hz": -27643.7
+    },
+    {
+      "time": "2026-10-25T01:41:14.134886Z",
+      "elevation_deg": 51.67,
+      "azimuth_deg": 209.515,
+      "range_km": 1031.179,
+      "range_rate_km_s": 4.11097,
+      "doppler_hz": -30168.0
+    },
+    {
+      "time": "2026-10-25T01:41:24.259148Z",
+      "elevation_deg": 48.26,
+      "azimuth_deg": 209.209,
+      "range_km": 1074.372,
+      "range_rate_km_s": 4.41538,
+      "doppler_hz": -32401.9
+    },
+    {
+      "time": "2026-10-25T01:41:34.383410Z",
+      "elevation_deg": 45.097,
+      "azimuth_deg": 208.968,
+      "range_km": 1120.462,
+      "range_rate_km_s": 4.68368,
+      "doppler_hz": -34370.7
+    },
+    {
+      "time": "2026-10-25T01:41:44.507672Z",
+      "elevation_deg": 42.165,
+      "azimuth_deg": 208.777,
+      "range_km": 1169.1,
+      "range_rate_km_s": 4.91954,
+      "doppler_hz": -36101.6
+    },
+    {
+      "time": "2026-10-25T01:41:54.631934Z",
+      "elevation_deg": 39.447,
+      "azimuth_deg": 208.622,
+      "range_km": 1219.978,
+      "range_rate_km_s": 5.12662,
+      "doppler_hz": -37621.2
+    },
+    {
+      "time": "2026-10-25T01:42:04.756196Z",
+      "elevation_deg": 36.926,
+      "azimuth_deg": 208.495,
+      "range_km": 1272.821,
+      "range_rate_km_s": 5.30838,
+      "doppler_hz": -38955.1
+    },
+    {
+      "time": "2026-10-25T01:42:14.880458Z",
+      "elevation_deg": 34.584,
+      "azimuth_deg": 208.391,
+      "range_km": 1327.39,
+      "range_rate_km_s": 5.46799,
+      "doppler_hz": -40126.3
+    },
+    {
+      "time": "2026-10-25T01:42:25.004720Z",
+      "elevation_deg": 32.405,
+      "azimuth_deg": 208.305,
+      "range_km": 1383.475,
+      "range_rate_km_s": 5.60826,
+      "doppler_hz": -41155.7
+    },
+    {
+      "time": "2026-10-25T01:42:35.128982Z",
+      "elevation_deg": 30.374,
+      "azimuth_deg": 208.234,
+      "range_km": 1440.893,
+      "range_rate_km_s": 5.73172,
+      "doppler_hz": -42061.7
+    },
+    {
+      "time": "2026-10-25T01:42:45.253244Z",
+      "elevation_deg": 28.477,
+      "azimuth_deg": 208.176,
+      "range_km": 1499.484,
+      "range_rate_km_s": 5.84053,
+      "doppler_hz": -42860.2
+    },
+    {
+      "time": "2026-10-25T01:42:55.377506Z",
+      "elevation_deg": 26.7,
+      "azimuth_deg": 208.127,
+      "range_km": 1559.112,
+      "range_rate_km_s": 5.9366,
+      "doppler_hz": -43565.2
+    },
+    {
+      "time": "2026-10-25T01:43:05.501767Z",
+      "elevation_deg": 25.033,
+      "azimuth_deg": 208.087,
+      "range_km": 1619.654,
+      "range_rate_km_s": 6.02157,
+      "doppler_hz": -44188.7
+    },
+    {
+      "time": "2026-10-25T01:43:15.626029Z",
+      "elevation_deg": 23.464,
+      "azimuth_deg": 208.055,
+      "range_km": 1681.007,
+      "range_rate_km_s": 6.09683,
+      "doppler_hz": -44741.1
+    },
+    {
+      "time": "2026-10-25T01:43:25.750291Z",
+      "elevation_deg": 21.985,
+      "azimuth_deg": 208.029,
+      "range_km": 1743.078,
+      "range_rate_km_s": 6.16361,
+      "doppler_hz": -45231.1
+    },
+    {
+      "time": "2026-10-25T01:43:35.874553Z",
+      "elevation_deg": 20.587,
+      "azimuth_deg": 208.008,
+      "range_km": 1805.786,
+      "range_rate_km_s": 6.22295,
+      "doppler_hz": -45666.6
+    },
+    {
+      "time": "2026-10-25T01:43:45.998815Z",
+      "elevation_deg": 19.264,
+      "azimuth_deg": 207.992,
+      "range_km": 1869.061,
+      "range_rate_km_s": 6.27574,
+      "doppler_hz": -46053.9
+    },
+    {
+      "time": "2026-10-25T01:43:56.123077Z",
+      "elevation_deg": 18.007,
+      "azimuth_deg": 207.98,
+      "range_km": 1932.841,
+      "range_rate_km_s": 6.32275,
+      "doppler_hz": -46398.9
+    },
+    {
+      "time": "2026-10-25T01:44:06.247339Z",
+      "elevation_deg": 16.811,
+      "azimuth_deg": 207.972,
+      "range_km": 1997.07,
+      "range_rate_km_s": 6.36465,
+      "doppler_hz": -46706.4
+    },
+    {
+      "time": "2026-10-25T01:44:16.371601Z",
+      "elevation_deg": 15.671,
+      "azimuth_deg": 207.967,
+      "range_km": 2061.701,
+      "range_rate_km_s": 6.40202,
+      "doppler_hz": -46980.6
+    },
+    {
+      "time": "2026-10-25T01:44:26.495863Z",
+      "elevation_deg": 14.582,
+      "azimuth_deg": 207.965,
+      "range_km": 2126.688,
+      "range_rate_km_s": 6.43535,
+      "doppler_hz": -47225.2
+    },
+    {
+      "time": "2026-10-25T01:44:36.620125Z",
+      "elevation_deg": 13.54,
+      "azimuth_deg": 207.965,
+      "range_km": 2191.995,
+      "range_rate_km_s": 6.46507,
+      "doppler_hz": -47443.3
+    },
+    {
+      "time": "2026-10-25T01:44:46.744387Z",
+      "elevation_deg": 12.54,
+      "azimuth_deg": 207.968,
+      "range_km": 2257.586,
+      "range_rate_km_s": 6.49156,
+      "doppler_hz": -47637.7
+    },
+    {
+      "time": "2026-10-25T01:44:56.868649Z",
+      "elevation_deg": 11.58,
+      "azimuth_deg": 207.973,
+      "range_km": 2323.43,
+      "range_rate_km_s": 6.51515,
+      "doppler_hz": -47810.8
+    },
+    {
+      "time": "2026-10-25T01:45:06.992911Z",
+      "elevation_deg": 10.657,
+      "azimuth_deg": 207.979,
+      "range_km": 2389.499,
+      "range_rate_km_s": 6.53612,
+      "doppler_hz": -47964.7
+    },
+    {
+      "time": "2026-10-25T01:45:17.117173Z",
+      "elevation_deg": 9.766,
+      "azimuth_deg": 207.988,
+      "range_km": 2455.769,
+      "range_rate_km_s": 6.55473,
+      "doppler_hz": -48101.3
+    },
+    {
+      "time": "2026-10-25T01:45:27.241435Z",
+      "elevation_deg": 8.907,
+      "azimuth_deg": 207.997,
+      "range_km": 2522.215,
+      "range_rate_km_s": 6.57118,
+      "doppler_hz": -48222.0
+    },
+    {
+      "time": "2026-10-25T01:45:37.365697Z",
+      "elevation_deg": 8.076,
+      "azimuth_deg": 208.008,
+      "range_km": 2588.819,
+      "range_rate_km_s": 6.58569,
+      "doppler_hz": -48328.5
+    },
+    {
+      "time": "2026-10-25T01:45:47.489959Z",
+      "elevation_deg": 7.272,
+      "azimuth_deg": 208.021,
+      "range_km": 2655.56,
+      "range_rate_km_s": 6.59841,
+      "doppler_hz": -48421.9
+    },
+    {
+      "time": "2026-10-25T01:45:57.614221Z",
+      "elevation_deg": 6.492,
+      "azimuth_deg": 208.034,
+      "range_km": 2722.421,
+      "range_rate_km_s": 6.60951,
+      "doppler_hz": -48503.3
+    },
+    {
+      "time": "2026-10-25T01:46:07.738483Z",
+      "elevation_deg": 5.735,
+      "azimuth_deg": 208.048,
+      "range_km": 2789.388,
+      "range_rate_km_s": 6.6191,
+      "doppler_hz": -48573.7
+    },
+    {
+      "time": "2026-10-25T01:46:17.862745Z",
+      "elevation_deg": 4.999,
+      "azimuth_deg": 208.064,
+      "range_km": 2856.444,
+      "range_rate_km_s": 6.62732,
+      "doppler_hz": -48634.0
+    }
+  ]
+}

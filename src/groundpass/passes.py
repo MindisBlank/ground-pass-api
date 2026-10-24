@@ -70,6 +70,7 @@ class PassDetail:
     range_rate_km_s: np.ndarray
     azimuth_rate_deg_s: np.ndarray
     doppler_hz: np.ndarray
+    tca_azimuth_rate_deg_s: float
 
     @property
     def seconds_since_aos(self) -> np.ndarray:
@@ -82,7 +83,14 @@ class PassDetail:
 
     @property
     def max_azimuth_rate_deg_s(self) -> float:
-        return float(np.max(np.abs(self.azimuth_rate_deg_s)))
+        """Peak azimuth rate, independent of the sampling step.
+
+        The rate peaks where the satellite passes closest to zenith,
+        i.e. at TCA. On a near-overhead pass that peak is so narrow that
+        fixed-step samples miss it, so the rate at TCA is included.
+        """
+        sampled = float(np.max(np.abs(self.azimuth_rate_deg_s)))
+        return max(sampled, abs(self.tca_azimuth_rate_deg_s))
 
 
 def parse_pass_id(pass_id: str) -> tuple[int, str, datetime]:
@@ -214,6 +222,9 @@ def compute_pass_detail(
         range_rate,
     ) = topocentric.frame_latlon_and_rates(topos)
 
+    at_tca = (satellite - topos).at(ts.from_datetime(pass_.tca))
+    tca_azimuth_rate = at_tca.frame_latlon_and_rates(topos)[4]
+
     return PassDetail(
         pass_=pass_,
         downlink_hz=downlink_hz,
@@ -224,4 +235,5 @@ def compute_pass_detail(
         range_rate_km_s=range_rate.km_per_s,
         azimuth_rate_deg_s=azimuth_rate.degrees.per_second,
         doppler_hz=doppler_shift_hz(downlink_hz, range_rate.m_per_s),
+        tca_azimuth_rate_deg_s=float(tca_azimuth_rate.degrees.per_second),
     )

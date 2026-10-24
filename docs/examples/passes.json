@@ -1,0 +1,122 @@
+[
+  {
+    "pass_id": "43013-esrange-20261024T115544Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-24T11:49:30.320106Z",
+    "tca": "2026-10-24T11:55:44.870036Z",
+    "los": "2026-10-24T12:02:01.757109Z",
+    "duration_s": 751.4,
+    "max_elevation_deg": 41.69,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261024T133727Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-24T13:32:43.523328Z",
+    "tca": "2026-10-24T13:37:27.738443Z",
+    "los": "2026-10-24T13:42:13.645401Z",
+    "duration_s": 570.1,
+    "max_elevation_deg": 14.81,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261024T221701Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-24T22:12:50.349675Z",
+    "tca": "2026-10-24T22:17:01.677702Z",
+    "los": "2026-10-24T22:21:12.201187Z",
+    "duration_s": 501.9,
+    "max_elevation_deg": 11.79,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261024T235859Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-24T23:52:52.696921Z",
+    "tca": "2026-10-24T23:58:59.122855Z",
+    "los": "2026-10-25T00:05:03.207462Z",
+    "duration_s": 730.5,
+    "max_elevation_deg": 33.83,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T013949Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T01:33:18.247983Z",
+    "tca": "2026-10-25T01:39:49.150590Z",
+    "los": "2026-10-25T01:46:17.855302Z",
+    "duration_s": 779.6,
+    "max_elevation_deg": 87.53,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T031942Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T03:13:36.607856Z",
+    "tca": "2026-10-25T03:19:42.693499Z",
+    "los": "2026-10-25T03:25:47.444689Z",
+    "duration_s": 730.8,
+    "max_elevation_deg": 38.12,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T045854Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T04:53:25.796493Z",
+    "tca": "2026-10-25T04:58:54.100566Z",
+    "los": "2026-10-25T05:04:22.256702Z",
+    "duration_s": 656.5,
+    "max_elevation_deg": 23.35,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T063746Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T06:32:26.740893Z",
+    "tca": "2026-10-25T06:37:46.375611Z",
+    "los": "2026-10-25T06:43:06.173474Z",
+    "duration_s": 639.4,
+    "max_elevation_deg": 21.46,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T081647Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T08:10:57.562866Z",
+    "tca": "2026-10-25T08:16:47.305648Z",
+    "los": "2026-10-25T08:22:37.840581Z",
+    "duration_s": 700.3,
+    "max_elevation_deg": 30.11,
+    "min_elevation_deg": 5.0
+  },
+  {
+    "pass_id": "43013-esrange-20261025T095622Z",
+    "norad_id": 43013,
+    "satellite_name": "NOAA 20 (JPSS-1)",
+    "station": "esrange",
+    "aos": "2026-10-25T09:49:58.878216Z",
+    "tca": "2026-10-25T09:56:22.399853Z",
+    "los": "2026-10-25T10:02:47.650550Z",
+    "duration_s": 768.8,
+    "max_elevation_deg": 61.93,
+    "min_elevation_deg": 5.0
+  }
+]
