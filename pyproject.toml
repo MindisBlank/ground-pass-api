@@ -55,3 +55,11 @@ known-first-party = ["groundpass"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
+# Silence deprecation warnings raised inside third-party libraries, not
+# this project's code. Remove an entry once the library releases a fix.
+filterwarnings = [
+    # skyfield's search routine vs NumPy >= 2.5
+    "ignore:Setting the dtype on a NumPy array has been deprecated:DeprecationWarning",
+    # Starlette's test client asking for httpx2 instead of httpx
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated",
+]
