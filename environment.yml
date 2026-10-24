@@ -1,0 +1,21 @@
+# One-command setup:
+#
+#     conda env create -f environment.yml
+#     conda activate ground-pass-api
+#
+# Python itself comes from conda-forge. Every library dependency is
+# declared once, in pyproject.toml, and installed from here in editable
+# mode, so code changes take effect without reinstalling.
+#
+# To update an existing environment after pyproject.toml changes:
+#
+#     conda env update -f environment.yml --prune
+
+name: ground-pass-api
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -e .[plots,dev]

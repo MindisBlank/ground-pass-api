@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groundpass"
+version = "0.1.0"
+description = "Satellite pass prediction over ground stations, with Doppler, behind a small REST API."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "skyfield>=1.49",
+    "numpy>=1.24",
+    "fastapi>=0.110",
+    "pydantic>=2.5",
+    "uvicorn[standard]>=0.29",
+]
+
+[project.optional-dependencies]
+# Plotting is kept out of the core install so the Docker image stays small.
+plots = [
+    "matplotlib>=3.7",
+]
+dev = [
+    "pytest>=8.0",
+    "httpx>=0.27",
+    "ruff>=0.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# ---------------------------------------------------------------------------
+# PEP 8 via ruff. `ruff check .` lints, `ruff format .` formats.
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 79
+target-version = "py311"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors (PEP 8)
+    "W",   # pycodestyle warnings (PEP 8)
+    "F",   # pyflakes
+    "N",   # pep8-naming
+    "I",   # import ordering
+    "B",   # bugbear
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["groundpass"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
